@@ -1,4 +1,8 @@
 const nama = "dea afrizal";
-let hobi = "ngoding";
-hobi = "naek motor";
-console.log(`${nama} ${hobi}`);
+
+function getNama() {
+    return nama;
+}
+
+console.log(getNama());
+
